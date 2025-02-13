@@ -96,7 +96,7 @@ const startServer = async () => {
     console.log("Connected to MongoDB");
 
     app.listen(PORT, async () => {
-        console.log(`🚀  Server successfully launched at:${PORT}`);
+        console.log(`🚀  Server successfully launched at:${PORT} 🚀`);
 
         const issuers = (await readAllIssuers()) || null;
         if (issuers) {
